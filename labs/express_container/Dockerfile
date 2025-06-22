@@ -8,6 +8,7 @@ RUN npm ci
 
 COPY . .
 
-ENV PORT=5000
+ENV PORT=5001
+ENV APP_NAME="My first container"
 
 CMD [ "node", "src/index.js" ]
