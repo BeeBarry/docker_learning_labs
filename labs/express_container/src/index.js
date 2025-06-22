@@ -10,7 +10,7 @@ app.use(bodyParser.json());
 
 
 app.get('/', (req,res) => {
-    res.send('Hello good friends!');
+    res.send(`Hello good friends, from ${process.env.APP_NAME}`);
 });
 
 // Get Requests
