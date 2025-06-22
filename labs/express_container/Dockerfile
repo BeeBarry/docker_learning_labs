@@ -8,6 +8,6 @@ RUN npm ci
 
 COPY . .
 
-EXPOSE 3000
+ENV PORT=5000
 
 CMD [ "node", "src/index.js" ]
