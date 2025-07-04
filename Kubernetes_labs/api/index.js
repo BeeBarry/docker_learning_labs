@@ -14,12 +14,12 @@ async function start() {
     const db = client.db(dbName);
     const collection = db.collection(collectionName);
 
-    fastify.get("/", async function handler(request, reply) {
+    fastify.get("/api", async function handler(request, reply) {
         const count = await collection.countDocuments();
         return { success: true, count };
     });
 
-    fastify.get("/add", async function handler(request, reply) {
+    fastify.get("/api/add", async function handler(request, reply) {
         const res = await collection.insertOne({});
         return { acknowledged: res.acknowledged };
     });
