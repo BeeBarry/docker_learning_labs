@@ -4,6 +4,8 @@
 **/__pycache__/
 **/.env
 **/data/
+.dockerignore
+
 
 # IDE
 **/.idea/
@@ -39,7 +41,7 @@ build/
 dist/
 
 #-
-
+*.log
 kube/
 
 #-
