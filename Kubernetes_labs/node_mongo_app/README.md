@@ -13,3 +13,11 @@
 5. Added volume to the container for persistent data
 
 #### Part 2 - Network
+1. Created network via Docker CLI
+2. Connected mongodb Database to the network
+
+#### Part 3 - Node.js app
+1. Add functionality in index.js
+2. npm install fastify and mongodb
+3. run fastify web server and check the increments by add request
+4. Now lets make this work but in a docker container
