@@ -1,12 +1,15 @@
 # Mission
+
+- Turn mu docker-compose.yml file into kubernetes magic.
+- Following the official Kompose project
+
+### The web app
 - Click a button to send an HTTP request to the database and retrieve data of the number of tiems in the database.
- 
 
 - #### Technical components
   - API
   - Frontend server
   - Database service
- 
 
 - #### Tech stack
   - React + Parcel as frontend
@@ -15,14 +18,7 @@
 
 # Journey
 
-#### Part 1 - API
-- Initiating npm and installing required dependencies (Fastify + fastify/cors + mongodb)
-- Now isntalling dependecies fro the web folder ( parcel + react + react-dom)
-- Adding Dockerfiles for both the api and the web folders.
-#### Part - Docker
-- Creating docker-compose.yml file
-- Building the docker compose ```docker compose up --build```
+#### Part
+#### Part 
 
-#### Bonus
-- I could scale up the databases with this command ``` docker compose up --scale db=10```
 
