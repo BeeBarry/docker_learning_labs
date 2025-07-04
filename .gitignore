@@ -44,4 +44,8 @@ kube/
 
 #-
 
-.kube/
+.kube/*snapshot
+lock.mdb
+assetgraph
+request-graph
+data.mdb
