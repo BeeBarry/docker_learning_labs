@@ -12,3 +12,36 @@
 # OS
 .DS_Store
 Thumbs.db
+
+# ---
+
+*.env*
+*.key
+*.pem
+*.pfx
+secrets/
+*secret*.yaml
+*secret*.yml
+*.kubeconfig
+appsettings.local.json
+local.settings.json
+
+#-
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.npm
+.yarn-integrity
+
+#-
+build/
+dist/
+
+#-
+
+kube/
+
+#-
+
+.kube/
