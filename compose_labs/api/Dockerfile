@@ -2,7 +2,7 @@ FROM node
 
 USER node
 
-RUN mkdir/home/node/code
+RUN mkdir /home/node/code
 
 WORKDIR /home/node/code 
 
